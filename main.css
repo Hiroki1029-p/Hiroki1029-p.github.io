@@ -192,3 +192,22 @@ main {
 #secondary-menu a:hover {
     color: #F58220;
 }
+
+#Food {
+    text-align: center;
+    background-color: #FEDCBD;
+    margin: 730px auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#Food h2 {
+    background-color: red;
+    color: bisque;
+    width: 45%;
+    margin: 20px auto;
+    font-size: 23px;
+}
