@@ -79,6 +79,11 @@ footer {
     font-size: 23px;
 }
 
+#Introdaction address {
+    padding: 20px;
+    font-size: x-large;
+}
+
 #Attractions {
     text-align: center;
     background-color: #FEDCBD;
@@ -210,4 +215,37 @@ main {
     width: 45%;
     margin: 20px auto;
     font-size: 23px;
+}
+
+/*ContactForm*/
+.contact-form {
+    text-align: center;
+    background-color: #FEDCBD;
+    margin: 730px auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact-form h2 {
+    background-color: red;
+    color: bisque;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    font-size: 23px;
+}
+
+.contact-form label {
+    background-color: #333;
+    color: #FEDCBD;
+    padding: 7px;
+}
+
+.contact-form input {
+    background-color: #004000;
+    color: #FEDCBD;
+    padding: 7px;
 }

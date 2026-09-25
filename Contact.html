@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exlore Japan - Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/JAPAN-icon.svg">
+  </head>
+  <body>
+    <header>
+      <h1>Exlore Japan</h1>
+      <h2>Contact</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Media.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="Contact.html" method="post" class="contact-form">
+        <h2>Japan Travel Planner</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>region:</label>
+        <br><br>
+          <input type="radio"  name="region" value="Tokyo">
+          Tokyo
+          
+          <input type="radio" name="region" value="Kyoto">
+          Kyoto
+       
+          <input type="radio" name="region" value="Osaka">
+          Osaka
+        
+          <input type="radio" name="region" value="Hokkaido">
+          Hokkaido
+
+          <input type="radio" name="region" value="Okinawa">
+          Okinawa
+
+          <input type="radio" name="region" value="Hiroshima">
+          Hiroshima
+         <br><br>
+         <label>interest:</label>
+         <br><br>
+        <input type="checkbox" name="interest" value="Food">
+        Food
+
+        <input type="checkbox" name="interest" value="Culture">
+        Culture
+
+        <input type="checkbox" name="interest" value="History">
+        History
+
+        <input type="checkbox" name="interest" value="Nature">
+        Nature
+        <br><br>
+
+        <label for="season">When do you want to visit?</label>
+        <br><br>
+        <select id="season" name="season">
+          <option value="">Select a season</option>
+          <option value="spring">Spring</option>
+          <option value="summer">Summer</option>
+          <option value="fall">Fall</option>
+          <option value="winter">Winter</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2026 Explore Japan. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
