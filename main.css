@@ -75,3 +75,29 @@ footer {
      font-size: 20px;
 }
 
+#Attractions {
+    text-align: center;
+    background-color: #FEDCBD;
+    width: 45%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#Attractions ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+    gap: 10px;
+}
+
+#Attractions li {
+    width: 100%;
+}
+
+#Attractions img {
+    width: 100%;
+    height: auto;
+}
+
